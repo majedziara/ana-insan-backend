@@ -1,0 +1,59 @@
+name: Build production vendor
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - composer.json
+      - composer.lock
+      - .github/workflows/build-vendor.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-vendor-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  vendor:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      APP_ENV: production
+      APP_DEBUG: "false"
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up PHP 8.4
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          extensions: mbstring, intl, curl, dom, fileinfo, pdo_mysql, zip
+          coverage: none
+          tools: composer:v2
+
+      - name: Validate Composer configuration
+        run: composer validate --no-check-publish
+
+      - name: Install production dependencies
+        run: composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction --no-progress
+
+      - name: Check PHP requirements
+        run: composer check-platform-reqs --no-dev
+
+      - name: Create vendor.zip
+        run: zip -q -r vendor.zip vendor bootstrap/cache/packages.php
+
+      - name: Upload vendor.zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: vendor.zip
+          archive: false
+          if-no-files-found: error
+          retention-days: 7
