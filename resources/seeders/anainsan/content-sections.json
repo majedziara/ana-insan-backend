@@ -1,0 +1,298 @@
+[
+  {
+    "key": "home_hero",
+    "page": "home",
+    "sort_order": 10,
+    "is_active": true,
+    "asset": "education.png",
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "أنا إنسان… وبالعطاء نصنع الأمل.",
+        "subtitle": "بروح التطوع ويدٍ تمتدّ للخير، نتكاتف لمساندة الإنسان والوصول إلى من يحتاجنا.",
+        "body": "مساهمتك، ووقتك، وكلمتك الطيبة… كلّها بداية لأثر جميل.",
+        "button_label": "تعرّف على مبادراتنا",
+        "button_url": "/cases",
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Humanity brings us together. Giving brings hope.",
+        "subtitle": "Through volunteering and a helping hand, we come together to support people who need us.",
+        "body": "Your contribution, your time, your kindness: every act can make a difference.",
+        "button_label": "Explore our initiatives",
+        "button_url": "/cases",
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "home_about",
+    "page": "home",
+    "sort_order": 20,
+    "is_active": true,
+    "asset": "community.png",
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "قلوب متطوّعة، وأيدٍ تصنع الفرق.",
+        "subtitle": "نحن فريق أنا إنسان التطوعي. يجمعنا الإيمان بأن لكل إنسان حقًا في الكرامة، وبأن فعل الخير يبدأ بخطوة.",
+        "body": "نضع الإنسان في قلب مبادراتنا، ونسعى بروح التعاون إلى تخفيف المعاناة ومساندة الأسر والأطفال. معًا، نحول الرغبة في المساعدة إلى عمل.",
+        "button_label": "عن فريق أنا إنسان",
+        "button_url": "/about",
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Volunteer hearts. Helping hands.",
+        "subtitle": "We are Ana Insan Volunteer Team. We believe everyone deserves dignity and that helping starts with a single step.",
+        "body": "People are at the heart of our initiatives. Working together, we aim to ease hardship and support families and children.",
+        "button_label": "Meet Ana Insan",
+        "button_url": "/about",
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "about_intro",
+    "page": "about",
+    "sort_order": 10,
+    "is_active": true,
+    "asset": "community.png",
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "عن فريق أنا إنسان التطوعي",
+        "subtitle": "الإنسان أولًا… والخير يجمعنا.",
+        "body": "أنا إنسان فريق تطوعي يجمع أشخاصًا يؤمنون بقيمة العطاء والعمل الجماعي. نسعى إلى مساندة من يحتاج العون، وننطلق من احترام الإنسان وكرامته.\n\nمن خلال هذه المساحة، نشارك مبادراتنا والحالات الإنسانية وتحديثاتها، ونفتح باب التواصل لكل من يرغب في المساهمة أو التطوع.",
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "About Ana Insan Volunteer Team",
+        "subtitle": "People first. Kindness brings us together.",
+        "body": "Ana Insan is a volunteer team united by giving and working together. We aim to support people in need while respecting their dignity.\n\nHere, we share our initiatives, humanitarian cases and updates, and welcome everyone who wants to contribute or volunteer.",
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "about_mission",
+    "page": "about",
+    "sort_order": 20,
+    "is_active": true,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "رسالتنا",
+        "body": "أن نكون يد عون للإنسان، وأن نجعل التطوع مساحة للتكافل والأمل، بمبادرات تستجيب للاحتياج وتحفظ خصوصية الناس وكرامتهم.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Our mission",
+        "body": "To lend a hand and make volunteering a source of solidarity and hope, through initiatives that respond to needs and respect privacy and dignity.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "about_approach",
+    "page": "about",
+    "sort_order": 30,
+    "is_active": true,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "كيف نعمل؟",
+        "body": "نبدأ بفهم الاحتياج، ثم نبحث عن المساندة المناسبة ونتابع التنفيذ بالتعاون مع الجهات ذات الصلة.",
+        "items": [
+          {
+            "title": "فهم الاحتياج",
+            "body": "الاستماع إلى المجتمع وتحديد الأولويات قبل تصميم المبادرات."
+          },
+          {
+            "title": "التعاون",
+            "body": "تنسيق الجهود مع المؤسسات والمبادرات المجتمعية."
+          },
+          {
+            "title": "المتابعة",
+            "body": "مراجعة سير الأنشطة وتحديث المعلومات المتاحة عنها."
+          }
+        ],
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null
+      },
+      {
+        "locale": "en",
+        "title": "How we work",
+        "body": "We start by understanding needs, identify suitable support and follow implementation in cooperation with relevant organizations.",
+        "items": [
+          {
+            "title": "Understand needs",
+            "body": "Listen to communities and identify priorities before designing initiatives."
+          },
+          {
+            "title": "Work together",
+            "body": "Coordinate with institutions and community initiatives."
+          },
+          {
+            "title": "Follow progress",
+            "body": "Review activities and update the information available about them."
+          }
+        ],
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null
+      }
+    ]
+  },
+  {
+    "key": "contact_intro",
+    "page": "contact",
+    "sort_order": 10,
+    "is_active": true,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "إيدك معنا… والخير بيكبر.",
+        "body": "عندك فكرة لمبادرة، أو حابب تتطوّع أو تستفسر عن طرق المساهمة؟ يسعدنا تواصلك مع فريق أنا إنسان التطوعي عبر قنواتنا الرسمية.",
+        "subtitle": null,
+        "button_label": "تابعنا على إنستغرام",
+        "button_url": "https://www.instagram.com/anainsanteam/",
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Lend a hand. Help kindness grow.",
+        "body": "Have an initiative in mind, want to volunteer, or have a question about contributing? Contact Ana Insan Volunteer Team through our official channels.",
+        "subtitle": null,
+        "button_label": "Follow us on Instagram",
+        "button_url": "https://www.instagram.com/anainsanteam/",
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "footer_note",
+    "page": "footer",
+    "sort_order": 10,
+    "is_active": true,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "أنا إنسان… والخير يجمعنا.",
+        "body": "فريق أنا إنسان التطوعي. نمدّ يد العون، ونشارك الأمل، ونؤمن بأن لكل مساهمة أثرًا.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Ana Insan. Together in kindness.",
+        "body": "Ana Insan Volunteer Team. Lending a hand, sharing hope, and believing every contribution matters.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "footer_preview_notice",
+    "page": "footer",
+    "sort_order": 20,
+    "is_active": true,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "نسخة معاينة",
+        "body": "الحالات والمبالغ الواردة في هذه النسخة بيانات تجريبية، والصور المولّدة توضيحية ولا توثّق مستفيدين أو أنشطة فعلية. استقبال التبرعات متوقف أثناء تجهيز المحتوى.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Preview version",
+        "body": "Cases and amounts in this version are sample data. Generated images are illustrative and do not document actual beneficiaries or activities. Donations are paused while content is being prepared.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "privacy_policy",
+    "page": "privacy",
+    "sort_order": 10,
+    "is_active": false,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "سياسة الخصوصية — مسودة غير منشورة",
+        "body": "هذا القسم معدّ لإضافة سياسة الخصوصية المعتمدة للفريق. قبل تفعيله، تُستكمل بيانات الجهة المسؤولة وقنوات التواصل، وفئات البيانات المطلوبة وأغراض استخدامها، والجهات التي تعالجها، ومدد الاحتفاظ بها وآلية طلب التصحيح أو الحذف.\n\nهذا النص تحريري مؤقت وليس سياسة خصوصية مكتملة.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Privacy policy — unpublished draft",
+        "body": "This section is reserved for the team’s approved privacy policy. Before publication, complete the responsible organization and contact details, data categories and purposes, processing parties, retention periods and the process for requesting correction or deletion.\n\nThis is a temporary editorial draft, not a complete privacy policy.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  },
+  {
+    "key": "terms_of_use",
+    "page": "terms",
+    "sort_order": 10,
+    "is_active": false,
+    "asset": null,
+    "translations": [
+      {
+        "locale": "ar",
+        "title": "شروط الاستخدام والتبرع — مسودة غير منشورة",
+        "body": "هذا القسم معدّ للشروط التي تعتمدها الفريق لاستخدام الموقع والتبرع. قبل تفعيله، تُستكمل قواعد تخصيص التبرعات والرسوم والعملات، والتعامل مع تعذّر تنفيذ حالة أو زيادة تمويلها، وسياسة الاسترداد وقناة الاستفسار.\n\nلا تمثّل الحالات التجريبية في نسخة المعاينة طلبات تبرع فعلية.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      },
+      {
+        "locale": "en",
+        "title": "Use and donation terms — unpublished draft",
+        "body": "This section is reserved for the team’s approved website and donation terms. Before publication, complete rules on donation allocation, fees and currencies, treatment of unfeasible or overfunded cases, refunds and inquiries.\n\nSample cases in the preview version are not actual donation requests.",
+        "subtitle": null,
+        "button_label": null,
+        "button_url": null,
+        "items": []
+      }
+    ]
+  }
+]

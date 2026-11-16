@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "contact_email": null,
+    "phone": null,
+    "facebook_url": null,
+    "instagram_url": "https://www.instagram.com/anainsanteam/",
+    "youtube_url": null,
+    "linkedin_url": null,
+    "x_url": null,
+    "donations_enabled": false,
+    "display_currencies": [
+      "USD",
+      "ILS",
+      "EUR"
+    ],
+    "whatsapp_number": null
+  },
+  "translations": [
+    {
+      "locale": "ar",
+      "organization_name": "فريق أنا إنسان التطوعي",
+      "address": null,
+      "seo_title": "فريق أنا إنسان التطوعي | معًا نصنع الأمل",
+      "seo_description": "فريق أنا إنسان التطوعي؛ مبادرات إنسانية بروح التطوع، لمساندة الأسر والأطفال وحفظ كرامة الإنسان. تعرّف على مبادراتنا وآخر أخبار الفريق."
+    },
+    {
+      "locale": "en",
+      "organization_name": "Ana Insan Volunteer Team",
+      "address": null,
+      "seo_title": "Ana Insan Volunteer Team | Together, we bring hope",
+      "seo_description": "Ana Insan Volunteer Team: volunteer-led humanitarian initiatives supporting families, children and human dignity. Explore our initiatives and latest news."
+    }
+  ]
+}
